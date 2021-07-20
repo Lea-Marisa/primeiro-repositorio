@@ -1,0 +1,23 @@
+<html>
+
+<head>
+
+    <title>Teste btoa</title>
+
+</head>    
+
+    <body>
+
+        <input type="btoa('gama')" placeholder="Informe uma frase" id="frase">
+
+        <button onclick="alert">Decodificar</button>
+
+        <script> 
+        var dadoCodificado = window.btoa("Olá, mundo")
+
+        </script>
+        
+
+    </body>
+
+</html>
